@@ -13,4 +13,5 @@ Fix:
 1. turn the length of the array to 0 if new smallestDifference was found
 2. Forgot to reassign smallestDifference when a new one is found.
 
-
+Improvement:
+1. Sort the array first so that you only need to compare adjacent numbers and not do a loop for each number
