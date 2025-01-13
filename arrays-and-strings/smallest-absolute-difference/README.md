@@ -15,3 +15,5 @@ Fix:
 
 Improvement:
 1. Sort the array first so that you only need to compare adjacent numbers and not do a loop for each number
+2. Now that it is sorted, we don't have to keep track of the smaller number and larger number in the result
+3. Just redeclare result instead of clearing the array
