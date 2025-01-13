@@ -1,5 +1,7 @@
 const w1 = "abc"
 const w2 = "pqr"
+const w3 = "ab"
+const w4 = "pqrs"
 
 const mergeAlternately = (word1, word2) => {
   let array1 = Array.from(word1)
@@ -17,3 +19,4 @@ const mergeAlternately = (word1, word2) => {
 }
 
 mergeAlternately(w1, w2);
+mergeAlternately(w3, w4);
