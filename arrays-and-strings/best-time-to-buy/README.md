@@ -25,3 +25,7 @@ New approach:
 How to improve new approach
 1. Track only 2 things, the lowest price you've seen so far and the largest profit
 2. Loop through the array only once
+
+Final improved solution
+1. Use a traditional for loop
+2. Initialize the minPrice to the first item in the array
