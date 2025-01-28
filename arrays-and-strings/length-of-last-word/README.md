@@ -9,3 +9,7 @@ Initial thoughts:
   1. Check if word is not empty.
   2. If not empty, push the word to the words array, then set the word to an empty string
   3. If it is empty, do nothing
+
+Improved:
+1. Start loop from the end
+2. If character is a space and there is already a word, return the word
