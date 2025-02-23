@@ -7,3 +7,6 @@ Initial thoughts:
 1. If empty string, return false
 2. Remove spaces from the string using regexp, then lowercase it
 3. Compare each char in the string on opposite sides by looping
+
+Shorter solution:
+1. Just reverse the cleaned string and compare
