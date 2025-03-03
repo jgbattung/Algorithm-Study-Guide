@@ -16,4 +16,5 @@ Different approach:
 2. Since we only care about duplicate letters if it happens within a current substring, a window should be tracked to check this
 3. Have an object that tracks each character and its index
 4. Loop through the string
-5. If there is a duplicate is found and it is wihtin the current window, update the window to one character after the occurence of the duplicate
+5. If there is a duplicate is found and it is wihtin the current window, update the window to one character after the occurence of the duplicate, effectively removing the first instance of the duplicate from the window
+6. Compare the current length the maxLength and return which is longer.
