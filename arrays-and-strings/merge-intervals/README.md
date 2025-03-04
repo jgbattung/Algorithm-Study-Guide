@@ -18,3 +18,10 @@ Another failing test case
 
 Another failing test case
 1. intervals = [[1,4],[0,1]]
+
+How to cover these multiple scenarios
+1. It is possible that intervals on the right are smaller than intervals on the left
+2. This means that comparing adjacent intervals may not be the most effective approach
+3. Sort the array first accordingt to the first digit on each array
+4. After sorting, if the current interval overlaps with the last interval in the result, then merge them
+5. If not, add to the result
