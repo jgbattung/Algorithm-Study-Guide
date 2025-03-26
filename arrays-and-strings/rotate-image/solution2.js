@@ -18,7 +18,8 @@ var rotate = function(matrix) {
     }
   }
 
-  console.log(matrix)
+  return matrix
 };
 
 rotate(m1)
+rotate(m2)
