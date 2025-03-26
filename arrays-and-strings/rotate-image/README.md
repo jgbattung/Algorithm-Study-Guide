@@ -22,3 +22,7 @@ Next thoughts:
   2. reverse the transposed matrix
 
 To transpose, I will need a double loop. So the matrix[0][0] stays the same, matrix[0][1] becomes matrix[1][0], matrix[0][2] becomes matrix [2][0] etc.
+
+To reverse, I need to swap the outer elements then move inwards. so matrix[0][0] swaps with matrix[0][2]. Which is basically matrix[i][j] and matrix[i][matrix.length - 1].
+
+After this I need to move inwards, but the inner loop only goes through half the length of the matrix.length, as we only want to move into the middle
