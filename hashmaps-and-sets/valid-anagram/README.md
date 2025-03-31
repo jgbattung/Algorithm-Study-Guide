@@ -13,3 +13,7 @@ Next thoughts:
 1. Turns out maps can't in fact contain duplicates, so same approach with ransomNote the, have a count for each letter, then reduce if seen already in the second loop
 2. Check if there are any remaining letters in the map after the loop
 3. Use map.entries with for of loop for this
+
+Improved version:
+1. compare lengths for early check (improves runtime)
+2. Use for of loop for setting the chars in the map (doesn't seem to improve runtime but makes code shorter)
