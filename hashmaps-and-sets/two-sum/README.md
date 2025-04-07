@@ -11,7 +11,7 @@ Initial thoughts:
 3. If it does, return the indices of nums[i] and 
 4. If not, continue looping
 
-Immprovement:
+Improvement:
 1. Runtime too slow
 2. Consider how you can use a map here
 3. Loop over the nums array
@@ -19,3 +19,4 @@ Immprovement:
 5. Get the currentDiff for nums[i]
 6. Check if we have already seen this number in the map
 7. If yes, return the index of that number, which should be saved as number:index
+8. If not, save the currNum to the map
